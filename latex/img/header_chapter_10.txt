@@ -1,0 +1,7 @@
+Prompt: Scene: A quiet night sky: a crescent moon in the upper right, a few sparse stars, and drifting gently around the moon a handful of small handwritten shapes like fireflies: a few digits, a plus sign, a minus sign, a multiply sig, a divide sign, a small infinity symbol (a sideways figure eight), and a wavy line. Hushed, still, lullaby mood.
+
+Hand-drawn graphite pencil illustration in medium HB line weight, confident but simple contours, clean basic shapes, subtle sketchy hatching for soft shading, children's book illustration style, monochrome graphite only, natural handwritten numerals, clear legibility, centered single-subject layout, flat balanced composition, generous white space, plain white paper background.
+
+No color, no filled background, no perspective, no hand, no pencil, no eraser, no extra objects, no background elements, no extra text, no watermark, no logos. Wide 3:2 landscape banner, clean educational children's-book illustration. Only a crescent moon, a few stars, and small faint shapes (a few digits, one plus sign, one infinity symbol, one wavy line); no readable words or formula.
+Model: GPT Image 1.5 (gpt-image-1.5)
+Date/Time: 29.08.2026, 23:07:28 MESZ
