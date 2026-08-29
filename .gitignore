@@ -3,7 +3,7 @@ scripts/
 IDEA.md
 ILLUSTRATIONS.md
 
-.out
-.log
-.aux
+*.out
+*.log
+*.aux
 
