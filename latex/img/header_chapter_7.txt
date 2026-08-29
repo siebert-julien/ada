@@ -1,0 +1,7 @@
+Prompt: Scene: A row of three circles decreasing in size from left to right. The first circle is cut in half, the second into three wedges, the third into ten thin wedges. Below each circle, a small line segment cut into the same number of parts: one segment cut in half, one cut into thirds, one cut into ten tiny parts, the parts shrinking toward the right.
+
+Hand-drawn graphite pencil illustration in medium HB line weight, confident but simple contours, clean basic shapes, subtle sketchy hatching for soft shading, children's book illustration style, monochrome graphite only, natural handwritten numerals, clear legibility, centered single-subject layout, flat balanced composition, generous white space, plain white paper background.
+
+No color, no filled background, no perspective, no hand, no pencil, no eraser, no extra objects, no background elements, no extra text, no watermark, no logos. Wide 3:2 landscape banner, clean educational children's-book illustration. Exactly three circles and three matching line segments; wedge counts 2, 3, and 10 from left to right. No digits.
+Model: GPT Image 1.5 (gpt-image-1.5)
+Date/Time: 29.08.2026, 22:26:01 CEST
