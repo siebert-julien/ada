@@ -11,6 +11,34 @@
 \usepackage{enumitem}
 \usepackage{trimclip}
 \usepackage{hyperref}
+\usepackage[explicit]{titlesec}
+
+% ---- Chapter header images (GPT Image 1.5, see ../img) ----
+% Each chapter's header image is drawn as a full-bleed banner pinned to the
+% top of the page (TikZ overlay at current page.north), ABOVE the chapter
+% title. Image N belongs to chapter N (image 0 -> chapter 0, the untitled
+% first chapter). Tolerates a missing image.
+\newcommand{\chapterheadbanner}[1]{%
+  \IfFileExists{../img/header_chapter_#1.png}%
+    {\begin{tikzpicture}[remember picture,overlay]%
+       \node[anchor=north,inner sep=0pt,outer sep=0pt]
+         at (current page.north)%
+         {\includegraphics[width=\paperwidth]{../img/header_chapter_#1.png}};%
+     \end{tikzpicture}}%
+    {\typeout{[chapterheadimg] missing image: ../img/header_chapter_#1.png}}%
+}%
+% The banner is \paperwidth wide and 3:2, so ~279.7pt (~9.9cm) tall, pinned
+% to the physical top of the page (y0=0). Reserve ~4.75cm from the text-block
+% top so the chapter title starts just below the banner.
+\newlength{\imgtopgap}
+\setlength{\imgtopgap}{5.1cm}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}
+  {\chaptername\ \thechapter}
+  {1ex}
+  {\Huge#1}
+  [{\chapterheadbanner{\number\numexpr\value{chapter}\relax}}]
+\titlespacing*{\chapter}{0pt}{\imgtopgap}{12pt}
 
 \setcounter{chapter}{-1}
 
@@ -20,7 +48,7 @@
 \begin{document}
 \maketitle
 \textit{Pour Oscar, joyeux Noël.}
-\chapter{}
+\chapter{The line of digits}
 \input{chapter0}
 \chapter[]{Addition and subtraction}
 \input{chapter1}
